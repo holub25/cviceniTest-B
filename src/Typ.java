@@ -1,0 +1,3 @@
+public enum Typ {
+    DOPRAVNI,BOJOVY,NAKLADNI,UKAZKOVE,SOUKROME
+}
