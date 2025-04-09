@@ -45,7 +45,7 @@ public class Nacitani {
         return "Počet radku"+ radky.length;
     }
     public String pocetSlov() {
-        String[] slova = text.split("\\s+");
+        String[] slova = text.trim().split("\\s+");
         return "Počet slov: "+slova.length;
     }
     public String pocetRadku2(){
